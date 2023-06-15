@@ -2,9 +2,9 @@ package com.example.animals;
 
 public class Animal {
     private String type;
-    private AnimalSound sound;
+    private String sound;
 
-    public Animal(String type, AnimalSound sound) {
+    public Animal(String type, String sound) {
         this.type = type;
         this.sound = sound;
     }
@@ -13,7 +13,7 @@ public class Animal {
         return type;
     }
 
-    public AnimalSound getSound() {
+    public String getSound() {
         return sound;
     }
 }
